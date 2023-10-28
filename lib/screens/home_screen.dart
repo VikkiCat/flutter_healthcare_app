@@ -1,5 +1,6 @@
 // TODO: 42:00
 import 'package:flutter/material.dart';
+import 'package:flutter_healthcare_app/screens/appointment_screen.dart';
 
 class HomeScreen extends StatelessWidget {
   List symptoms = [
@@ -210,14 +211,21 @@ class HomeScreen extends StatelessWidget {
             ),
           ),
           GridView.builder(
-            gridDelegate:
-                SliverGridDelegateWithFixedCrossAxisCount(crossAxisCount: 2),
+            gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+              crossAxisCount: 2,
+            ),
             itemCount: 4,
             shrinkWrap: true,
             physics: NeverScrollableScrollPhysics(),
             itemBuilder: (context, index) {
               return InkWell(
-                onTap: () {},
+                onTap: () {
+                  Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder: (context) => AppointmentScreen(),
+                      ));
+                },
                 child: Container(
                   margin: EdgeInsets.all(10),
                   padding: EdgeInsets.symmetric(vertical: 15),
