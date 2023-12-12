@@ -1,4 +1,3 @@
-// TODO: 42:00
 import 'package:flutter/material.dart';
 import 'package:flutter_healthcare_app/screens/appointment_screen.dart';
 
