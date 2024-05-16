@@ -12,7 +12,7 @@ class UpcomingSchedule extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Text(
-            "About Doctor",
+            "About Visit",
             style: TextStyle(
               fontSize: 18,
               fontWeight: FontWeight.w500,
