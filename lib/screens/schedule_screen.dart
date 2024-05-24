@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_healthcare_app/widgets/upcoming_schedule.dart';
-//TODO: 1:24:42
 
 class ScheduleScreen extends StatefulWidget {
   const ScheduleScreen({super.key});

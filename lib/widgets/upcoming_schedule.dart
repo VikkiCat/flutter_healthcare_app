@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-//TODO: 1:24:42
 
 class UpcomingSchedule extends StatelessWidget {
   const UpcomingSchedule({super.key});
