@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_healthcare_app/screens/welcome_screen.dart';
 
 //TODO: 1. фото для профілю користувача
-//2. Вибрати нове головне фото, старе просто жахливе на вигляд
 //3. Змінити кольорову гамму відповідно до головного фото(більше теплих кольорів)
 
 void main() {
